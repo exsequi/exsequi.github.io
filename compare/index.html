@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>在线文本对比</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <button id="check">对比</button>
+    <div class="container">
+        <div class="panel left">
+            <div>左侧文本：</div>
+            <textarea></textarea>
+            <div>仅在左侧出现：</div>
+            <pre class="result"></pre>
+        </div>
+        <div class="panel right">
+            <div>右侧文本：</div>
+            <textarea></textarea>
+            <div>仅在右侧出现：</div>
+            <pre class="result"></pre>
+        </div>
+    </div>
+    <script src="compare.js"></script>
+</body>
+
+</html>

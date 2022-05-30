@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+#check {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.panel {
+    flex: auto;
+}
+
+textarea {
+    width: 100%;
+    height: 50vh;
+}
